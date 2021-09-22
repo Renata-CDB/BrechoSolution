@@ -1,0 +1,12 @@
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\bin\Debug\net5.0\BrechoDomainCore.deps.json
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\bin\Debug\net5.0\BrechoDomainCore.dll
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\bin\Debug\net5.0\ref\BrechoDomainCore.dll
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\bin\Debug\net5.0\BrechoDomainCore.pdb
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\obj\Debug\net5.0\BrechoDomainCore.csprojAssemblyReference.cache
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\obj\Debug\net5.0\BrechoDomainCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\obj\Debug\net5.0\BrechoDomainCore.AssemblyInfoInputs.cache
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\obj\Debug\net5.0\BrechoDomainCore.AssemblyInfo.cs
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\obj\Debug\net5.0\BrechoDomainCore.csproj.CoreCompileInputs.cache
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\obj\Debug\net5.0\BrechoDomainCore.dll
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\obj\Debug\net5.0\ref\BrechoDomainCore.dll
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\obj\Debug\net5.0\BrechoDomainCore.pdb

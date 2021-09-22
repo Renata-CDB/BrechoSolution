@@ -1,0 +1,15 @@
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\BrechoModelo.Infrastructure.deps.json
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\BrechoModelo.Infrastructure.dll
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\ref\BrechoModelo.Infrastructure.dll
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\BrechoModelo.Infrastructure.pdb
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\obj\Debug\net5.0\BrechoModelo.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\obj\Debug\net5.0\BrechoModelo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\obj\Debug\net5.0\BrechoModelo.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\obj\Debug\net5.0\BrechoModelo.Infrastructure.AssemblyInfo.cs
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\obj\Debug\net5.0\BrechoModelo.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\obj\Debug\net5.0\BrechoModelo.Infrastructure.dll
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\obj\Debug\net5.0\ref\BrechoModelo.Infrastructure.dll
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\obj\Debug\net5.0\BrechoModelo.Infrastructure.pdb
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\BrechoDomain.dll
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\BrechoDomain.pdb
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\obj\Debug\net5.0\BrechoModelo.Infrastructure.csproj.CopyComplete
