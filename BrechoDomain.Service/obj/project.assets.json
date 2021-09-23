@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "BrechoDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BrechoDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BrechoDomain.dll": {}
+        }
+      },
+      "BrechoDomainCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BrechoDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BrechoDomainCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BrechoDomainCore.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BrechoDomain/1.0.0": {
+      "type": "project",
+      "path": "../ModeloDomain/BrechoDomain.csproj",
+      "msbuildProject": "../ModeloDomain/BrechoDomain.csproj"
+    },
+    "BrechoDomainCore/1.0.0": {
+      "type": "project",
+      "path": "../BrechoDomainCore/BrechoDomainCore.csproj",
+      "msbuildProject": "../BrechoDomainCore/BrechoDomainCore.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "BrechoDomainCore >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Usuario 1\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Usuario 1\\source\\repos\\Microsservicos\\BrechoSolution\\BrechoDomainCore\\BrechoDomainCore.csproj": {
+              "projectPath": "C:\\Users\\Usuario 1\\source\\repos\\Microsservicos\\BrechoSolution\\BrechoDomainCore\\BrechoDomainCore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -29,7 +29,7 @@ namespace BrechoModelo.Infrastructure.Data.Repositorys
             }
         }
 
-        public void Delete(TEntity obj)
+        public void Remove(TEntity obj)
         {
             try
             {

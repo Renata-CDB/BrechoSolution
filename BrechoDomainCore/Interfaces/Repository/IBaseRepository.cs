@@ -12,7 +12,7 @@ namespace BrechoDomainCore.Interfaces.Repository
 
         void Update(TEntity obj);
 
-        void Delete(TEntity obj);
+        void Remove (TEntity obj);
 
         void Dispose();
     }
