@@ -9,6 +9,7 @@
       "BrechoModelo.Infrastructure/1.0.0": {
         "dependencies": {
           "BrechoDomain": "1.0.0",
+          "BrechoDomainCore": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.10"
         },
         "runtime": {
@@ -143,6 +144,14 @@
         "runtime": {
           "BrechoDomain.dll": {}
         }
+      },
+      "BrechoDomainCore/1.0.0": {
+        "dependencies": {
+          "BrechoDomain": "1.0.0"
+        },
+        "runtime": {
+          "BrechoDomainCore.dll": {}
+        }
       }
     }
   },
@@ -251,6 +260,11 @@
       "hashPath": "system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
     },
     "BrechoDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BrechoDomainCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

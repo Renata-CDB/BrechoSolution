@@ -170,6 +170,19 @@
         "runtime": {
           "bin/placeholder/BrechoDomain.dll": {}
         }
+      },
+      "BrechoDomainCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BrechoDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BrechoDomainCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BrechoDomainCore.dll": {}
+        }
       }
     }
   },
@@ -534,11 +547,17 @@
       "type": "project",
       "path": "../ModeloDomain/BrechoDomain.csproj",
       "msbuildProject": "../ModeloDomain/BrechoDomain.csproj"
+    },
+    "BrechoDomainCore/1.0.0": {
+      "type": "project",
+      "path": "../BrechoDomainCore/BrechoDomainCore.csproj",
+      "msbuildProject": "../BrechoDomainCore/BrechoDomainCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "BrechoDomain >= 1.0.0",
+      "BrechoDomainCore >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.10"
     ]
   },
@@ -569,6 +588,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\Usuario 1\\source\\repos\\Microsservicos\\BrechoSolution\\BrechoDomainCore\\BrechoDomainCore.csproj": {
+              "projectPath": "C:\\Users\\Usuario 1\\source\\repos\\Microsservicos\\BrechoSolution\\BrechoDomainCore\\BrechoDomainCore.csproj"
+            },
             "C:\\Users\\Usuario 1\\source\\repos\\Microsservicos\\BrechoSolution\\ModeloDomain\\BrechoDomain.csproj": {
               "projectPath": "C:\\Users\\Usuario 1\\source\\repos\\Microsservicos\\BrechoSolution\\ModeloDomain\\BrechoDomain.csproj"
             }

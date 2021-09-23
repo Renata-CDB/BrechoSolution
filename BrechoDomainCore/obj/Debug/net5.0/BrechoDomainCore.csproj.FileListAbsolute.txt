@@ -10,3 +10,6 @@ C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\o
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\obj\Debug\net5.0\BrechoDomainCore.dll
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\obj\Debug\net5.0\ref\BrechoDomainCore.dll
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\obj\Debug\net5.0\BrechoDomainCore.pdb
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\bin\Debug\net5.0\BrechoDomain.dll
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\bin\Debug\net5.0\BrechoDomain.pdb
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoDomainCore\obj\Debug\net5.0\BrechoDomainCore.csproj.CopyComplete

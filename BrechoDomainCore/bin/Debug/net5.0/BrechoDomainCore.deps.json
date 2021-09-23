@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "BrechoDomainCore/1.0.0": {
+        "dependencies": {
+          "BrechoDomain": "1.0.0"
+        },
         "runtime": {
           "BrechoDomainCore.dll": {}
+        }
+      },
+      "BrechoDomain/1.0.0": {
+        "runtime": {
+          "BrechoDomain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "BrechoDomainCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BrechoDomain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

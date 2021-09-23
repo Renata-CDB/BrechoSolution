@@ -13,3 +13,5 @@ C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infra
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\BrechoDomain.dll
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\BrechoDomain.pdb
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\obj\Debug\net5.0\BrechoModelo.Infrastructure.csproj.CopyComplete
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\BrechoDomainCore.dll
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\BrechoDomainCore.pdb
