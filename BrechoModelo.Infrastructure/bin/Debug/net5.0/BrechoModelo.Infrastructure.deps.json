@@ -10,6 +10,7 @@
         "dependencies": {
           "BrechoDomain": "1.0.0",
           "BrechoDomainCore": "1.0.0",
+          "BrechoModeloAplication": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.10"
         },
         "runtime": {
@@ -152,6 +153,11 @@
         "runtime": {
           "BrechoDomainCore.dll": {}
         }
+      },
+      "BrechoModeloAplication/1.0.0": {
+        "runtime": {
+          "BrechoModeloAplication.dll": {}
+        }
       }
     }
   },
@@ -265,6 +271,11 @@
       "sha512": ""
     },
     "BrechoDomainCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BrechoModeloAplication/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

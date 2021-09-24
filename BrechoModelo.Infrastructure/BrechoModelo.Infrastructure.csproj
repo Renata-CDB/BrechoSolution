@@ -10,11 +10,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BrechoDomainCore\BrechoDomainCore.csproj" />
+    <ProjectReference Include="..\BrechoModeloAplication\BrechoModeloAplication.csproj" />
     <ProjectReference Include="..\ModeloDomain\BrechoDomain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="4.2 CrossCutting\" />
+    <Folder Include="CrossCutting\IOC\" />
   </ItemGroup>
 
 </Project>
