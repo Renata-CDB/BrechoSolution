@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BrechoDomain.Service\BrechoDomain.Service.csproj" />
+    <ProjectReference Include="..\BrechoDomainCore\BrechoDomainCore.csproj" />
+  </ItemGroup>
+
 </Project>
