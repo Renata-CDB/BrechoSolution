@@ -15,7 +15,7 @@ namespace BrechoModeloAplication.Interfaces
 
         void Remove(ClienteDTO obj);
 
-        void Dispose();
+        //void Dispose();
 
     }
 }

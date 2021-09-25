@@ -2,12 +2,7 @@
 using BrechoModeloAplication.Dtos;
 using BrechoModeloAplication.Interfaces;
 using BrechoModeloAplication.Interfaces.Mapper;
-using BrechoModeloAplication.Mapper;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BrechoModeloAplication
 {
@@ -17,7 +12,7 @@ namespace BrechoModeloAplication
         private readonly IClienteService _clienteService;
         private readonly IClienteMapper _clienteMapper;
 
-        public ClienteAplicationService(IClienteService clienteService 
+        public ClienteAplicationService(IClienteService clienteService
                                         , IClienteMapper clienteMapper)
         {
             _clienteService = clienteService;
@@ -32,15 +27,15 @@ namespace BrechoModeloAplication
             _clienteService.add(Cliente);
         }
 
-        public void Dispose()
-        {
+        //public void Dispose()
+        //{
             
-        }
+        //}
 
         public IEnumerable<ClienteDTO> GetAll()
         {
             var clientes = _clienteService.GetAll();
-               return _clienteMapper.MapperListClientes(clientes);
+            return _clienteMapper.MapperListClientes(clientes);
         }
 
         public ClienteDTO GetById(int id)
@@ -52,13 +47,13 @@ namespace BrechoModeloAplication
         public void Remove(ClienteDTO obj)
         {
             var objCliente = _clienteMapper.MapperToEntity(obj);
-               _clienteService.Remove(objCliente);
+            _clienteService.Remove(objCliente);
         }
 
         public void Update(ClienteDTO obj)
         {
             var objCliente = _clienteMapper.MapperToEntity(obj);
-             _clienteService.Update(objCliente);
+            _clienteService.Update(objCliente);
         }
     }
 }
