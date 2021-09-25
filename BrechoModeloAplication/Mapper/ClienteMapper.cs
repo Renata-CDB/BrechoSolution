@@ -1,17 +1,14 @@
 ﻿using BrechoDomain.Entitys;
-using BrechoModelo.Infrastructure.CrossCutting.Interfaces;
 using BrechoModeloAplication.Dtos;
 using System.Collections.Generic;
 
-namespace DDDWebAPI.Infrastruture.CrossCutting.Adapter.Map
+namespace BrechoModeloAplication.Mapper
 {
-    public class ClienteMapper : IClienteMapper
+    public class ClienteMapper
     {
-
-        
         List<ClienteDTO> clienteDTOs = new List<ClienteDTO>();
 
-        
+
 
         public Cliente MapperToEntity(ClienteDTO clienteDTO)
         {
@@ -75,7 +72,8 @@ namespace DDDWebAPI.Infrastruture.CrossCutting.Adapter.Map
 
         }
 
-        
+
 
     }
 }
+

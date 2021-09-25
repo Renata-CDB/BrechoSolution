@@ -1,18 +1,14 @@
 ﻿using BrechoDomain.Entitys;
-using BrechoModelo.Infrastructure.CrossCutting.Interfaces;
 using BrechoModeloAplication.Dtos;
-using System;
 using System.Collections.Generic;
 
-namespace BrechoModelo.Infrastructure.CrossCutting.Mapper
+namespace BrechoModeloAplication.Mapper
 {
-    public class ProdutoMapper : IProdutoMapper
+    public class ProdutoMapper
     {
-        
-
         List<ProdutoDTO> produtoDTOs = new List<ProdutoDTO>();
 
-        
+
 
         public Produto MapperToEntity(ProdutoDTO produtoDTO)
         {
@@ -67,41 +63,7 @@ namespace BrechoModelo.Infrastructure.CrossCutting.Mapper
 
         }
 
-       
+
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
