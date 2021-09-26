@@ -12,12 +12,12 @@ namespace BrechoModeloAplication
         private readonly IClienteService clienteService;
         private readonly IClienteMapper clienteMapper;
 
-        public ClienteAplicationService(IClienteService clienteService
-                                        , IClienteMapper clienteMapper)
-        {
-            //clienteService = clienteService;
-            //clienteMapper = clienteMapper;
-        }
+        //public ClienteAplicationService(IClienteService clienteService
+        //                                , IClienteMapper clienteMapper)
+        //{
+        //    //clienteService = clienteService;
+        //    //clienteMapper = clienteMapper;
+        //}
 
 
 

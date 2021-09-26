@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WBnMFOezbDwfk+JhQCP4mZHjtli1H//lAehxBreB6oow56dLo6fNWk19ypVgO3XI8zdNu8BPAKGDB7L1AzMXtg==",
+  "dgSpecHash": "TfJhlwlpPTDwYIrSnedpQ06YT3kOb2jvYRy8Y9QaTQ9r1pTgutaiyYn/2Yk4vjFV01DBUVmMcWdaIQ73cEsbPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario 1\\source\\repos\\Microsservicos\\BrechoSolution\\BrechoModelo.Infrastructure\\BrechoModelo.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Usuario 1\\.nuget\\packages\\autofac\\5.1.4\\autofac.5.1.4.nupkg.sha512",
     "C:\\Users\\Usuario 1\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
     "C:\\Users\\Usuario 1\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.10\\microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",
     "C:\\Users\\Usuario 1\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.10\\microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512",

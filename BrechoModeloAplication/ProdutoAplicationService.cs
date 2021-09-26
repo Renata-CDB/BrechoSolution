@@ -11,12 +11,12 @@ namespace BrechoModeloAplication
         private readonly IProdutoService produtoService;
         private readonly IProdutoMapper produtoMapper;
 
-        public ProdutoAplicationService (IProdutoService produtoService,
-                                         IProdutoMapper produtoMapper)
-        {
-            //produtoService = produtoService;
-            //produtoMapper = produtoMapper;
-        }
+        //public ProdutoAplicationService (IProdutoService produtoService,
+        //                                 IProdutoMapper produtoMapper)
+        //{
+        //    //produtoService = produtoService;
+        //    //produtoMapper = produtoMapper;
+        //}
 
         public void Add(ProdutoDTO produtoDTO)
         {
