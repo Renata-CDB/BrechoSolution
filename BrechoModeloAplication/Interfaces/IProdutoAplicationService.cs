@@ -15,6 +15,6 @@ namespace BrechoModeloAplication.Interfaces
 
         void Remove(ProdutoDTO obj);
 
-        void Dispose();
+        //void Dispose();
     }
 }
