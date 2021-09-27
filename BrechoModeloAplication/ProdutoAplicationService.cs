@@ -8,20 +8,20 @@ namespace BrechoModeloAplication
 {
     public class ProdutoAplicationService : IProdutoAplicationService
     {
-        private readonly IProdutoService produtoService;
-        private readonly IProdutoMapper produtoMapper;
+        private readonly IProdutoService _produtoService;
+        private readonly IProdutoMapper _produtoMapper;
 
-        //public ProdutoAplicationService (IProdutoService produtoService,
-        //                                 IProdutoMapper produtoMapper)
-        //{
-        //    //produtoService = produtoService;
-        //    //produtoMapper = produtoMapper;
-        //}
+        public ProdutoAplicationService(IProdutoService produtoService,
+                                         IProdutoMapper produtoMapper)
+        {
+            _produtoService = produtoService;
+            _produtoMapper = produtoMapper;
+        }
 
         public void Add(ProdutoDTO produtoDTO)
         {
-            var Produto = produtoMapper.MapperToEntity(produtoDTO);
-            produtoService.add(Produto);
+            var Produto = _produtoMapper.MapperToEntity(produtoDTO);
+            _produtoService.add(Produto);
             
         }
 
@@ -30,26 +30,26 @@ namespace BrechoModeloAplication
 
         public IEnumerable<ProdutoDTO> GetAll()
         {
-            var produtos = produtoService.GetAll();
-            return produtoMapper.MapperListProdutos(produtos);
+            var produtos = _produtoService.GetAll();
+            return _produtoMapper.MapperListProdutos(produtos);
         }
 
         public ProdutoDTO GetById(int id)
         {
-            var produto = produtoService.GetById(id);
-            return produtoMapper.MapperToDTO(produto);
+            var produto = _produtoService.GetById(id);
+            return _produtoMapper.MapperToDTO(produto);
         }
 
         public void Remove(ProdutoDTO obj)
         {
-            var objProduto = produtoMapper.MapperToEntity(obj);
-            produtoService.Remove(objProduto);
+            var objProduto = _produtoMapper.MapperToEntity(obj);
+            _produtoService.Remove(objProduto);
         }
 
         public void Update(ProdutoDTO obj)
         {
-            var objProduto = produtoMapper.MapperToEntity(obj);
-            produtoService.Update(objProduto);
+            var objProduto = _produtoMapper.MapperToEntity(obj);
+            _produtoService.Update(objProduto);
         }
     }
 }

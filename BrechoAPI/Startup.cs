@@ -1,6 +1,10 @@
 using Autofac;
 using BrechoModelo.Infrastructure.CrossCutting.IOC;
 using BrechoModelo.Infrastructure.Data;
+using BrechoModeloAplication;
+using BrechoModeloAplication.Interfaces;
+using BrechoModeloAplication.Interfaces.Mapper;
+using BrechoModeloAplication.Mapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -30,6 +34,10 @@ namespace BrechoAPI
             //services.addDbContext<SqlContext>(options => options.UseSqlServer(connection));
             services.AddDbContext<SqlContext>(options => options.UseSqlServer(connection));
             services.AddControllers();
+            services.AddTransient<IClienteAplicationService, ClienteAplicationService>();
+            services.AddTransient<IProdutoAplicationService, ProdutoAplicationService>();
+            services.AddSingleton<IClienteMapper, ClienteMapper>();
+            services.AddSingleton<IProdutoMapper, ProdutoMapper>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddSwaggerGen(c =>
             {

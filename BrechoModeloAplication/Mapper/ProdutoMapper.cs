@@ -1,10 +1,11 @@
 ﻿using BrechoDomain.Entitys;
 using BrechoModeloAplication.Dtos;
+using BrechoModeloAplication.Interfaces.Mapper;
 using System.Collections.Generic;
 
 namespace BrechoModeloAplication.Mapper
 {
-    public class ProdutoMapper
+    public class ProdutoMapper : IProdutoMapper
     {
         List<ProdutoDTO> produtoDTOs = new List<ProdutoDTO>();
 

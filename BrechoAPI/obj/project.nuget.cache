@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/8s9/g2Lol735yunde+MNVQDtIC3Na7OAzfl0QlrnZDORfIUo31Jjf0owQVvHNcn90SUG/0T5jF5pIWZPs2VmQ==",
+  "dgSpecHash": "kNfMEEALuY4g3EZZdK/gNr+MRjuS4cAKrLdPp6Q/GuzhijjJPAWcw1fUM17jnnylwQkypjuIRwz3gHTZZfk0bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario 1\\source\\repos\\Microsservicos\\BrechoSolution\\BrechoAPI\\BrechoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario 1\\.nuget\\packages\\autofac\\5.1.4\\autofac.5.1.4.nupkg.sha512",
+    "C:\\Users\\Usuario 1\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\Usuario 1\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Usuario 1\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Usuario 1\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
