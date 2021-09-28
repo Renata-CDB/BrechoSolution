@@ -6,12 +6,12 @@ namespace BrechoDomain.Service
 {
     public class ClienteService : BaseService<Cliente>, IClienteService
     {
-        private readonly IClienteRepository clienteRepository;
+        private readonly IClienteRepository _clienteRepository;
 
         public ClienteService(IClienteRepository clienteRepository)
             : base(clienteRepository)
         {
-            this.clienteRepository = clienteRepository;
+            _clienteRepository = clienteRepository;
         }
     }
 }

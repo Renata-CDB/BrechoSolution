@@ -5,12 +5,12 @@ namespace BrechoModelo.Infrastructure.Data.Repositorys
 {
     public class ClienteRepository : BaseRepository<Cliente>, IClienteRepository
     {
-        private readonly SqlContext sqlContext;
+        private readonly SqlContext _sqlContext;
 
         public ClienteRepository(SqlContext sqlContext)
             : base(sqlContext)
         {
-            this.sqlContext = sqlContext;
+            _sqlContext = sqlContext;
         }
     }
 }

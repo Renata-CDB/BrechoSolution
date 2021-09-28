@@ -15,7 +15,7 @@ namespace BrechoAPI.Controllers
         private readonly IClienteAplicationService _clienteApplicationService;
 
 
-        public ClientesController(ClienteAplicationService ClienteApplicationService)
+        public ClientesController(IClienteAplicationService ClienteApplicationService)
         {
             _clienteApplicationService = ClienteApplicationService;
         }
@@ -46,10 +46,10 @@ namespace BrechoAPI.Controllers
                 _clienteApplicationService.Add(clienteDTO);
                 return Ok("Cliente Cadastrado com sucesso!");
             }
-            catch (Exception ex)
+            catch (Exception )
             {
 
-                throw ex;
+                throw;
             }
 
 
@@ -86,10 +86,10 @@ namespace BrechoAPI.Controllers
                 _clienteApplicationService.Remove(clienteDTO);
                 return Ok("Cliente Removido com sucesso!");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
-                throw ex;
+                throw;
             }
 
         }

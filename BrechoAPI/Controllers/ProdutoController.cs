@@ -1,5 +1,4 @@
-﻿using BrechoModeloAplication;
-using BrechoModeloAplication.Dtos;
+﻿using BrechoModeloAplication.Dtos;
 using BrechoModeloAplication.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -13,7 +12,7 @@ namespace BrechoAPI.Controllers
     {
         private readonly IProdutoAplicationService _produtoApplicationService;
 
-        public ProdutosController(ProdutoAplicationService ApplicationServiceProduto)
+        public ProdutosController(IProdutoAplicationService ApplicationServiceProduto)
         {
             _produtoApplicationService = ApplicationServiceProduto;
         }
@@ -45,10 +44,10 @@ namespace BrechoAPI.Controllers
                 _produtoApplicationService.Add(produtoDTO);
                 return Ok("O produto foi cadastrado com sucesso");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
-                throw ex;
+                throw;
             }
         }
 
@@ -66,10 +65,10 @@ namespace BrechoAPI.Controllers
                 return Ok("O produto foi atualizado com sucesso!");
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
-                throw ex;
+                throw;
             }
         }
 
@@ -86,10 +85,10 @@ namespace BrechoAPI.Controllers
                 return Ok("O produto foi removido com sucesso!");
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
-                throw ex;
+                throw;
             }
         }
     }

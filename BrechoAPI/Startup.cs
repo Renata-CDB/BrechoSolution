@@ -1,6 +1,8 @@
 using Autofac;
+using BrechoDomainCore.Interfaces.Repository;
 using BrechoModelo.Infrastructure.CrossCutting.IOC;
 using BrechoModelo.Infrastructure.Data;
+using BrechoModelo.Infrastructure.Data.Repositorys;
 using BrechoModeloAplication;
 using BrechoModeloAplication.Interfaces;
 using BrechoModeloAplication.Interfaces.Mapper;
@@ -36,8 +38,11 @@ namespace BrechoAPI
             services.AddControllers();
             services.AddTransient<IClienteAplicationService, ClienteAplicationService>();
             services.AddTransient<IProdutoAplicationService, ProdutoAplicationService>();
+            services.AddTransient<IProdutoAplicationService, ProdutoAplicationService>();
             services.AddSingleton<IClienteMapper, ClienteMapper>();
             services.AddSingleton<IProdutoMapper, ProdutoMapper>();
+            services.AddTransient<IClienteRepository, ClienteRepository>();
+            services.AddTransient<IProdutoRepository, ProdutoRepository>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddSwaggerGen(c =>
             {

@@ -8,24 +8,24 @@ namespace BrechoModelo.Infrastructure.Data.Repositorys
 {
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
     {
-        private readonly SqlContext sqlContext;
+        private readonly SqlContext _sqlContext;
 
         public BaseRepository(SqlContext sqlContext) 
         {
-            this.sqlContext = sqlContext;
+            _sqlContext = sqlContext;
         }
 
         public void Add(TEntity obj)
         {
             try
             {
-                sqlContext.Set<TEntity>().Add(obj);
-                sqlContext.SaveChanges();
+                _sqlContext.Set<TEntity>().Add(obj);
+                _sqlContext.SaveChanges();
             }
-            catch (System.Exception ex)
+            catch (System.Exception )
             {
 
-                throw ex;
+                throw;
             }
         }
 
@@ -33,8 +33,8 @@ namespace BrechoModelo.Infrastructure.Data.Repositorys
         {
             try
             {
-                sqlContext.Set<TEntity>().Remove(obj);
-                sqlContext.SaveChanges();
+                _sqlContext.Set<TEntity>().Remove(obj);
+                _sqlContext.SaveChanges();
             }
             catch (System.Exception)
             {
@@ -50,23 +50,23 @@ namespace BrechoModelo.Infrastructure.Data.Repositorys
 
         public IEnumerable<TEntity> GetAll()
         {
-            return sqlContext.Set<TEntity>().ToList();
+            return _sqlContext.Set<TEntity>().ToList();
         }
 
         public TEntity GetById(int id)
         {
-            return sqlContext.Set<TEntity>().Find(id);
+            return _sqlContext.Set<TEntity>().Find(id);
         }
 
         public void Update(TEntity obj)
         {
             try
             {
-                sqlContext.Entry(obj).State = EntityState.Modified;
-                sqlContext.SaveChanges();
+                _sqlContext.Entry(obj).State = EntityState.Modified;
+                _sqlContext.SaveChanges();
 
             }
-            catch (System.Exception ex)
+            catch (System.Exception )
             {
 
                 throw;
