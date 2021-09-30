@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace BrechoDomain.Entitys
 {
@@ -9,5 +10,6 @@ namespace BrechoDomain.Entitys
         public string Email { get; set; }
         public DateTime DataCadastro { get; set; }
         public bool Ativo { get; set; }
+        public virtual List<Produto> Produtos { get; set; }
     }
 }

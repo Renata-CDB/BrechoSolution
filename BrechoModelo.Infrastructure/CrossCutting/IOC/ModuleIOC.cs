@@ -6,7 +6,7 @@ namespace BrechoModelo.Infrastructure.CrossCutting.IOC
     {
         protected override void Load(ContainerBuilder builder)
         {
-            ConfigurationIOC.Load(builder);
+            //ConfigurationIOC.Load(builder);
         }
     }
 }
