@@ -19,3 +19,6 @@ C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infra
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\BrechoModeloAplication.pdb
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\BrechoDomain.Service.dll
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\BrechoDomain.Service.pdb
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\BrechoModelo.Infrastructure.runtimeconfig.json
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\bin\Debug\net5.0\BrechoModelo.Infrastructure.runtimeconfig.dev.json
+C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModelo.Infrastructure\obj\Debug\net5.0\BrechoModelo.Infrastructure.genruntimeconfig.cache

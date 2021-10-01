@@ -2,28 +2,6 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Autofac/5.1.4": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.1/Autofac.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/Autofac.dll": {}
-        }
-      },
-      "Autofac.Extensions.DependencyInjection/6.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Autofac": "5.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {}
-        }
-      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -326,7 +304,7 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.13": {
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.11.1": {
         "type": "package",
         "build": {
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
@@ -1392,11 +1370,12 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Autofac": "5.1.4",
           "BrechoDomain": "1.0.0",
           "BrechoDomainCore": "1.0.0",
           "BrechoModeloAplication": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3"
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2"
         },
         "compile": {
           "bin/placeholder/BrechoModelo.Infrastructure.dll": {}
@@ -1422,44 +1401,6 @@
     }
   },
   "libraries": {
-    "Autofac/5.1.4": {
-      "sha512": "MsAEZJNCBTwZ21cBaFosWvR+zNG3VXB8y8qn3HmYl6m9iR/CDqDQykqBzfApbqj3N1l2I4qVBPA2exIdHJvANQ==",
-      "type": "package",
-      "path": "autofac/5.1.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "autofac.5.1.4.nupkg.sha512",
-        "autofac.nuspec",
-        "icon.png",
-        "lib/net461/Autofac.dll",
-        "lib/net461/Autofac.pdb",
-        "lib/net461/Autofac.xml",
-        "lib/netstandard2.0/Autofac.dll",
-        "lib/netstandard2.0/Autofac.pdb",
-        "lib/netstandard2.0/Autofac.xml",
-        "lib/netstandard2.1/Autofac.dll",
-        "lib/netstandard2.1/Autofac.pdb",
-        "lib/netstandard2.1/Autofac.xml"
-      ]
-    },
-    "Autofac.Extensions.DependencyInjection/6.0.0": {
-      "sha512": "+1WNYENm4s/bSBrmTy2sD0zs6MCiCAlUaEbHJ+y7fKpXKqnFl4oTkIkUoDKlp05dl1VoAASBUJocaKKJa1KPCw==",
-      "type": "package",
-      "path": "autofac.extensions.dependencyinjection/6.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",
-        "autofac.extensions.dependencyinjection.nuspec",
-        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll",
-        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.pdb",
-        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml",
-        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll",
-        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.pdb",
-        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.xml"
-      ]
-    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -2003,10 +1944,10 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.13": {
-      "sha512": "HWRH5pClal37WMKb0kV2JtnNKUEyQk8kJDdBz0M0fn9hKeU2KW8wdxkxeBNaumGQzHibZqSRofkeeayfpsMaKA==",
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.11.1": {
+      "sha512": "1jHxWlSi6/ryWODk6SUjsZPHk/BdsucxqhIi1szEzwc84e8nvZWF45qRXcT2gWPISJ3Ybbyg2LsNG6yX8r7VuA==",
       "type": "package",
-      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.10.13",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.11.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -2034,7 +1975,7 @@
         "build/ToolsTarget.props",
         "build/ToolsTarget.targets",
         "icon.png",
-        "microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
         "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
         "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
         "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
@@ -5356,12 +5297,10 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Autofac >= 5.1.4",
-      "Autofac.Extensions.DependencyInjection >= 6.0.0",
       "BrechoModelo.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.10",
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.13",
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.11.1",
       "Swashbuckle.AspNetCore >= 5.4.1"
     ]
   },
@@ -5408,14 +5347,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "Autofac": {
-            "target": "Package",
-            "version": "[5.1.4, )"
-          },
-          "Autofac.Extensions.DependencyInjection": {
-            "target": "Package",
-            "version": "[6.0.0, )"
-          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -5430,7 +5361,7 @@
           },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
-            "version": "[1.10.13, )"
+            "version": "[1.11.1, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

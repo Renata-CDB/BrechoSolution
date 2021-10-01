@@ -1,28 +1,36 @@
-﻿using Autofac;
-using BrechoDomain.Service;
+﻿using BrechoDomain.Service;
 using BrechoDomainCore.Interfaces.Repository;
 using BrechoDomainCore.Interfaces.Services;
+using BrechoModelo.Infrastructure.Data;
 using BrechoModelo.Infrastructure.Data.Repositorys;
 using BrechoModeloAplication;
 using BrechoModeloAplication.Interfaces;
 using BrechoModeloAplication.Interfaces.Mapper;
 using BrechoModeloAplication.Mapper;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace BrechoModelo.Infrastructure.CrossCutting.IOC
 {
     public class ConfigurationIOC
     {
-        public static void Load(ContainerBuilder builder)
+        //public class SqlContext : DbContext
+        public static void RegisterServices(IServiceCollection services, string connectionString, IConfiguration Configuration)
         {
+            services.AddDbContext<SqlContext>(options =>
+            {
+                options.UseSqlServer(connectionString);
+            });
             #region IOC
-            builder.RegisterType<ClienteAplicationService>().As<IClienteAplicationService>();
-            builder.RegisterType<ProdutoAplicationService>().As<IProdutoAplicationService>();
-            builder.RegisterType<ClienteService>().As<IClienteService>();
-            builder.RegisterType<ProdutoService>().As<IProdutoService>();
-            builder.RegisterType<ClienteRepository>().As<IClienteRepository>();
-            builder.RegisterType<ProdutoRepository>().As<IProdutoRepository>();
-            builder.RegisterType<ClienteMapper>().As<IClienteMapper>();
-            builder.RegisterType<ProdutoMapper>().As<IProdutoMapper>();
+            services.AddScoped<IClienteAplicationService, ClienteAplicationService>();
+            services.AddScoped<IProdutoAplicationService, ProdutoAplicationService>();
+            services.AddScoped<IClienteService, ClienteService>();
+            services.AddScoped<IProdutoService, ProdutoService>();
+            services.AddScoped<IClienteRepository, ClienteRepository>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IClienteMapper, ClienteMapper>();
+            services.AddScoped<IProdutoMapper, ProdutoMapper>();
             #endregion
         }
     }
