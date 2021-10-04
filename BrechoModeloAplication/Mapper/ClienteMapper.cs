@@ -15,12 +15,12 @@ namespace BrechoModeloAplication.Mapper
         {
             Cliente cliente = new Cliente
             {
-                Id = clienteDTO.Id
-                ,
-                Nome = clienteDTO.Nome
-                ,
-                Sobrenome = clienteDTO.Sobrenome
-                ,
+                
+                
+                Nome = clienteDTO.Nome,
+                
+                Sobrenome = clienteDTO.Sobrenome,
+                
                 Email = clienteDTO.Email
             };
 
@@ -37,12 +37,12 @@ namespace BrechoModeloAplication.Mapper
 
                 ClienteDTO clienteDTO = new ClienteDTO
                 {
-                    Id = (int)item.Id
-                   ,
-                    Nome = item.Nome
-                   ,
-                    Sobrenome = item.Sobrenome
-                   ,
+                   
+                   
+                    Nome = item.Nome,
+                   
+                    Sobrenome = item.Sobrenome,
+                   
                     Email = item.Email
                 };
 
@@ -60,12 +60,12 @@ namespace BrechoModeloAplication.Mapper
 
             ClienteDTO clienteDTO = new ClienteDTO
             {
-                Id = (int)Cliente.Id
-                ,
-                Nome = Cliente.Nome
-                ,
-                Sobrenome = Cliente.Sobrenome
-                ,
+                
+                
+                Nome = Cliente.Nome,
+                
+                Sobrenome = Cliente.Sobrenome,
+                
                 Email = Cliente.Email
             };
 

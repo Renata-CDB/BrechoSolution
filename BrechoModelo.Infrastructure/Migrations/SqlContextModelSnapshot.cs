@@ -21,7 +21,7 @@ namespace BrechoModelo.Infrastructure.Migrations
 
             modelBuilder.Entity("BrechoDomain.Entitys.Cliente", b =>
                 {
-                    b.Property<int?>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -54,15 +54,13 @@ namespace BrechoModelo.Infrastructure.Migrations
 
             modelBuilder.Entity("BrechoDomain.Entitys.Produto", b =>
                 {
-                    b.Property<int?>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("ClienteId")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
+                    b.Property<int>("ClienteId")
+                        .HasColumnType("int");
 
                     b.Property<bool>("Disponivel")
                         .HasColumnType("bit");

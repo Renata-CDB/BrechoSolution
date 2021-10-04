@@ -33,7 +33,7 @@ namespace BrechoModelo.Infrastructure.Migrations
                     Nome = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false),
                     Valor = table.Column<double>(type: "float", nullable: false),
                     Disponivel = table.Column<bool>(type: "bit", nullable: false),
-                    ClienteId = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false)
+                    ClienteId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
