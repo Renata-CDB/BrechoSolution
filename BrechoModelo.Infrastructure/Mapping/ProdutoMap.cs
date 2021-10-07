@@ -8,8 +8,7 @@ namespace BrechoModelo.Infrastructure.Mapping
     {
         public void Configure(EntityTypeBuilder<Produto> builder)
         {
-            builder.Property(p => p.Nome).HasMaxLength(100).IsRequired().HasColumnType("varchar");
-            builder.Property(p => p.ClienteId).IsRequired().HasColumnType("int");
+            builder.Property(p => p.Nome).HasMaxLength(100).IsRequired().HasColumnType("varchar");           
 
             builder.Property(p => p.Valor)
                 .HasColumnType("float");

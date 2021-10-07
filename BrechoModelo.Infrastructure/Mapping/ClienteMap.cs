@@ -14,7 +14,7 @@ namespace BrechoModelo.Infrastructure.Mapping
 
             builder.HasMany(c => c.Produtos)
                 .WithOne(p => p.Cliente)
-                .HasForeignKey(c => c.ClienteId);                
+                .HasForeignKey(c => c.ClienteId);               
 
             builder.Property(c => c.Ativo)
                 .HasColumnType("bit");

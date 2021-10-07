@@ -21,6 +21,7 @@ namespace BrechoModelo.Infrastructure.Data.Repositorys
             {
                 _sqlContext.Set<TEntity>().Add(obj);
                 _sqlContext.SaveChanges();
+                
             }
             catch (System.Exception )
             {

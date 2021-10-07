@@ -59,7 +59,7 @@ namespace BrechoModelo.Infrastructure.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("ClienteId")
+                    b.Property<int?>("ClienteId")
                         .HasColumnType("int");
 
                     b.Property<bool>("Disponivel")
@@ -84,9 +84,7 @@ namespace BrechoModelo.Infrastructure.Migrations
                 {
                     b.HasOne("BrechoDomain.Entitys.Cliente", "Cliente")
                         .WithMany("Produtos")
-                        .HasForeignKey("ClienteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ClienteId");
 
                     b.Navigation("Cliente");
                 });

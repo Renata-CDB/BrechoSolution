@@ -11,17 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Domain", "3- Domain", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- Infrastructure", "4- Infrastructure", "{C26CA83F-F998-467C-BB83-17F198887C23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrechoAPI", "BrechoAPI\BrechoAPI.csproj", "{033F90F1-349E-47F9-8934-92FD0F8A5D92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrechoAPI", "BrechoAPI\BrechoAPI.csproj", "{033F90F1-349E-47F9-8934-92FD0F8A5D92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrechoModeloAplication", "BrechoModeloAplication\BrechoModeloAplication.csproj", "{C0AD607C-3B1B-4608-8C22-CCD6D548F4D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrechoModeloAplication", "BrechoModeloAplication\BrechoModeloAplication.csproj", "{C0AD607C-3B1B-4608-8C22-CCD6D548F4D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrechoDomain", "ModeloDomain\BrechoDomain.csproj", "{02FFC4AA-BAAB-4F49-A347-87242F576CD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrechoDomain", "ModeloDomain\BrechoDomain.csproj", "{02FFC4AA-BAAB-4F49-A347-87242F576CD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrechoDomainCore", "BrechoDomainCore\BrechoDomainCore.csproj", "{2A5BFC8A-F872-4F41-BC78-A636CB49D319}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrechoDomainCore", "BrechoDomainCore\BrechoDomainCore.csproj", "{2A5BFC8A-F872-4F41-BC78-A636CB49D319}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrechoDomain.Service", "BrechoDomain.Service\BrechoDomain.Service.csproj", "{49E4DFCF-EFDD-40FB-9FD3-EC3787A3EFE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrechoDomain.Service", "BrechoDomain.Service\BrechoDomain.Service.csproj", "{49E4DFCF-EFDD-40FB-9FD3-EC3787A3EFE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrechoModelo.Infrastructure", "BrechoModelo.Infrastructure\BrechoModelo.Infrastructure.csproj", "{D2C9D811-5109-4987-8D7E-6B9B1EE9F5A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrechoModelo.Infrastructure", "BrechoModelo.Infrastructure\BrechoModelo.Infrastructure.csproj", "{D2C9D811-5109-4987-8D7E-6B9B1EE9F5A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,6 +58,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{D403D470-6DB9-481A-AB9C-83CD799DA8DC} = {1892B67E-0103-41FE-9CA4-F4B67A9DF0FC}
 		{033F90F1-349E-47F9-8934-92FD0F8A5D92} = {3CB804A2-97BD-4F43-A904-D8B28A12A801}
 		{C0AD607C-3B1B-4608-8C22-CCD6D548F4D0} = {D403D470-6DB9-481A-AB9C-83CD799DA8DC}
 		{02FFC4AA-BAAB-4F49-A347-87242F576CD1} = {1892B67E-0103-41FE-9CA4-F4B67A9DF0FC}

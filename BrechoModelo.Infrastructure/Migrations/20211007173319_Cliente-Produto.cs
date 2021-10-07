@@ -33,7 +33,7 @@ namespace BrechoModelo.Infrastructure.Migrations
                     Nome = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false),
                     Valor = table.Column<double>(type: "float", nullable: false),
                     Disponivel = table.Column<bool>(type: "bit", nullable: false),
-                    ClienteId = table.Column<int>(type: "int", nullable: false)
+                    ClienteId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -43,7 +43,7 @@ namespace BrechoModelo.Infrastructure.Migrations
                         column: x => x.ClienteId,
                         principalTable: "Clientes",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(

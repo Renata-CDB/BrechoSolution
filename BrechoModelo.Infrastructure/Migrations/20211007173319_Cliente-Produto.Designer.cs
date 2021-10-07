@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BrechoModelo.Infrastructure.Migrations
 {
     [DbContext(typeof(SqlContext))]
-    [Migration("20211002202730_Cliente-Produto")]
+    [Migration("20211007173319_Cliente-Produto")]
     partial class ClienteProduto
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -61,7 +61,7 @@ namespace BrechoModelo.Infrastructure.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("ClienteId")
+                    b.Property<int?>("ClienteId")
                         .HasColumnType("int");
 
                     b.Property<bool>("Disponivel")
@@ -86,9 +86,7 @@ namespace BrechoModelo.Infrastructure.Migrations
                 {
                     b.HasOne("BrechoDomain.Entitys.Cliente", "Cliente")
                         .WithMany("Produtos")
-                        .HasForeignKey("ClienteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ClienteId");
 
                     b.Navigation("Cliente");
                 });
