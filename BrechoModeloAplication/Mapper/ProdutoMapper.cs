@@ -16,7 +16,7 @@ namespace BrechoModeloAplication.Mapper
             Produto produto = new Produto
             {
 
-               // Id = produtoDTO.Id,
+                Id = produtoDTO.Id,
                 Nome = produtoDTO.Nome,
                 Valor = produtoDTO.Valor
 
@@ -33,7 +33,7 @@ namespace BrechoModeloAplication.Mapper
 
                 ProdutoDTO produtoDTO = new ProdutoDTO
                 {
-                    //Id = item.Id
+                    Id = item.Id,
                    
                     Nome = item.Nome,
                    
@@ -53,7 +53,7 @@ namespace BrechoModeloAplication.Mapper
         {
             ProdutoDTO produtoDTO = new ProdutoDTO
             {
-                //Id = produto.Id
+                Id = produto.Id,
                
                 Nome = produto.Nome,
                

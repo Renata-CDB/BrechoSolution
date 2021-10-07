@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uGS9yNIcXhV9RVotXYBAlrWyXPSVpFr6kFaJrmwFVElOz7QGgRB6BV+n6UH/SiLzKVLGNx7+Iyvpj4qWJR784w==",
+  "dgSpecHash": "bxNz+RFa8ZjdB4FNBPXwT59lGFEYApM/ddRmrC6rJ2TxwOTXzqbZ3a0+B5/q0M9PHUP/CoC6sKQTIVJ6KXf6zA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario 1\\source\\repos\\Microsservicos\\BrechoSolution\\ModeloDomain\\BrechoDomain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario 1\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\Usuario 1\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",
+    "C:\\Users\\Usuario 1\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.3\\fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
+    "C:\\Users\\Usuario 1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

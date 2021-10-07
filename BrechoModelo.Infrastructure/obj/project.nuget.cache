@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "w1fI+1T0swIM/bAVS/zQsV/brO+J/kAGO5RWbTQHqEU5fMPggmTR7iA1lPm9z84fvEGxbh4MWCcDglW4Vnq8EA==",
+  "dgSpecHash": "uJvK+pwbVaoIwx/im4UCnQPVZai9VdRnsI5RIpsIfL8aek3quQfWCE5O0ZBRlKoMEJ1cwXzBP0RW6/NLc5O7Zg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario 1\\source\\repos\\Microsservicos\\BrechoSolution\\BrechoModelo.Infrastructure\\BrechoModelo.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Usuario 1\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\Usuario 1\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",
+    "C:\\Users\\Usuario 1\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.3\\fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
     "C:\\Users\\Usuario 1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Usuario 1\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Usuario 1\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

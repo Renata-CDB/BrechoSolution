@@ -1,5 +1,4 @@
-﻿using BrechoModeloAplication;
-using BrechoModeloAplication.Dtos;
+﻿using BrechoModeloAplication.Dtos;
 using BrechoModeloAplication.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -21,7 +20,7 @@ namespace BrechoAPI.Controllers
         }
         // GET api/values
         [HttpGet]
-        
+
         public ActionResult<IEnumerable<string>> Get()
         {
             return Ok(_clienteApplicationService.GetAll());
@@ -46,7 +45,7 @@ namespace BrechoAPI.Controllers
                 _clienteApplicationService.Add(clienteDTO);
                 return Ok("Cliente Cadastrado com sucesso!");
             }
-            catch (Exception )
+            catch (Exception)
             {
 
                 throw;
