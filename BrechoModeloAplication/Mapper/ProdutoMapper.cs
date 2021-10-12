@@ -19,7 +19,7 @@ namespace BrechoModeloAplication.Mapper
                 //Id = produtoDTO.Id,
                 Nome = produtoDTO.Nome,
                 Valor = produtoDTO.Valor,
-                ClienteId = null
+                ClienteId = produtoDTO.ClienteId
 
             };
 

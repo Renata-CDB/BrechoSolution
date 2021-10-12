@@ -6,37 +6,37 @@ namespace BrechoDomain.Service
 {
     public class BaseService<TEntity> : IBaseService<TEntity> where TEntity : class
     {
-        private readonly IBaseRepository<TEntity> repository;
+        private readonly IBaseRepository<TEntity> _repository;
 
         public BaseService(IBaseRepository<TEntity> repository) 
         {
-            this.repository = repository;
+           _repository = repository;
         }            
 
 
         public void add(TEntity obj)
         {
-            repository.Add(obj);
+            _repository.Add(obj);
         }
 
         public IEnumerable<TEntity> GetAll()
         {
-            return repository.GetAll();
+            return _repository.GetAll();
         }
 
         public TEntity GetById(int id)
         {
-            return repository.GetById(id);
+            return _repository.GetById(id);
         }
 
         public void Remove(TEntity obj)
         {
-            repository.Remove(obj);
+            _repository.Remove(obj);
         }
 
         public void Update(TEntity obj)
         {
-            repository.Update(obj);
+            _repository.Update(obj);
         }
     }
 }
