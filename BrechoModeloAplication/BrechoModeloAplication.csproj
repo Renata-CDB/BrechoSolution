@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BrechoDomain.Service\BrechoDomain.Service.csproj" />
-    <ProjectReference Include="..\BrechoDomainCore\BrechoDomainCore.csproj" />
   </ItemGroup>
 
 </Project>

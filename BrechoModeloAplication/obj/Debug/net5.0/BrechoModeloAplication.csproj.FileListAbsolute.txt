@@ -12,8 +12,6 @@ C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModeloAplica
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModeloAplication\obj\Debug\net5.0\BrechoModeloAplication.pdb
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModeloAplication\bin\Debug\net5.0\BrechoDomain.dll
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModeloAplication\bin\Debug\net5.0\BrechoDomain.Service.dll
-C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModeloAplication\bin\Debug\net5.0\BrechoDomainCore.dll
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModeloAplication\bin\Debug\net5.0\BrechoDomain.Service.pdb
-C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModeloAplication\bin\Debug\net5.0\BrechoDomainCore.pdb
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModeloAplication\bin\Debug\net5.0\BrechoDomain.pdb
 C:\Users\Usuario 1\source\repos\Microsservicos\BrechoSolution\BrechoModeloAplication\obj\Debug\net5.0\BrechoModeloAplication.csproj.CopyComplete

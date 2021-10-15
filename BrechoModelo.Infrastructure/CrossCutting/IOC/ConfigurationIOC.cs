@@ -16,7 +16,7 @@ namespace BrechoModelo.Infrastructure.CrossCutting.IOC
     public class ConfigurationIOC
     {
         //public class SqlContext : DbContext
-        public static void RegisterServices(IServiceCollection services, string connectionString, IConfiguration Configuration)
+        public static void RegisterServices(IServiceCollection services, string connectionString, IConfiguration configuration)
         {
             services.AddDbContext<SqlContext>(options =>
             {

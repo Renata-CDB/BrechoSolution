@@ -4,19 +4,22 @@ using System.Collections.Generic;
 
 namespace BrechoDomain.Service
 {
-    public class BaseService<TEntity> : IBaseService<TEntity> where TEntity : class
+    public abstract class BaseService<TEntity> : IBaseService<TEntity> where TEntity : class
     {
         private readonly IBaseRepository<TEntity> _repository;
 
-        public BaseService(IBaseRepository<TEntity> repository) 
+        
+
+        public BaseService(IBaseRepository<TEntity> repository)
         {
-           _repository = repository;
-        }            
+            _repository = repository;
+        }
+
 
 
         public void add(TEntity obj)
-        {
-            _repository.Add(obj);
+        {   
+                _repository.Add(obj);
         }
 
         public IEnumerable<TEntity> GetAll()
@@ -35,8 +38,8 @@ namespace BrechoDomain.Service
         }
 
         public void Update(TEntity obj)
-        {
-            _repository.Update(obj);
+        {   
+                _repository.Update(obj);
         }
     }
 }

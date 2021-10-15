@@ -39,6 +39,12 @@ namespace BrechoAPI.Controllers
         {
             try
             {
+                //ClienteInputDtoValidator validator = new ClienteInputDtoValidator();
+                //ValidatorResult result = validator.Validate(clienteDto);
+                
+                //if (result.IsValid == false)
+                //return Ok(result.Errors);
+
                 if (clienteDTO == null)
                     return NotFound();
 

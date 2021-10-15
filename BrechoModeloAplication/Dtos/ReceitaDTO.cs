@@ -1,8 +1,8 @@
-﻿namespace BrechoDomain.Entitys
+﻿namespace BrechoModeloAplication.Dtos
 {
-    public class Receita : Base
+    public class ReceitaDTO
     {
-        public int? ProdutoId { get; set; }
+
         public string NomeCliente { get; set; }
         public string ProdutoComprado { get; set; }
     }

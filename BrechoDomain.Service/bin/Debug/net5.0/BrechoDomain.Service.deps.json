@@ -54,14 +54,6 @@
         "runtime": {
           "BrechoDomain.dll": {}
         }
-      },
-      "BrechoDomainCore/1.0.0": {
-        "dependencies": {
-          "BrechoDomain": "1.0.0"
-        },
-        "runtime": {
-          "BrechoDomainCore.dll": {}
-        }
       }
     }
   },
@@ -100,11 +92,6 @@
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
     },
     "BrechoDomain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "BrechoDomainCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -9,5 +9,6 @@ namespace BrechoDomainCore.Interfaces.Services
         void Remove(TEntity obj);
         IEnumerable<TEntity> GetAll();
         TEntity GetById(int id);
+
     }
 }

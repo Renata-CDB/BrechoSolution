@@ -1015,14 +1015,6 @@
           "BrechoDomain.Service.dll": {}
         }
       },
-      "BrechoDomainCore/1.0.0": {
-        "dependencies": {
-          "BrechoDomain": "1.0.0"
-        },
-        "runtime": {
-          "BrechoDomainCore.dll": {}
-        }
-      },
       "BrechoModeloAplication/1.0.0": {
         "dependencies": {
           "BrechoDomain.Service": "1.0.0",
@@ -1746,11 +1738,6 @@
       "sha512": ""
     },
     "BrechoDomain.Service/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "BrechoDomainCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

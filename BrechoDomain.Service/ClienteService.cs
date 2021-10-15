@@ -1,10 +1,8 @@
 ﻿using BrechoDomain.Entitys;
 using BrechoDomain.InputDTO;
-using BrechoDomain.Validator;
 using BrechoDomainCore.Interfaces.Repository;
 using BrechoDomainCore.Interfaces.Services;
 using System;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace BrechoDomain.Service
@@ -18,6 +16,7 @@ namespace BrechoDomain.Service
         {
             _clienteRepository = clienteRepository;
         }
+       
 
 
         //public static Task<ResponseDto> AddAsync(ClienteInputDto model)
